@@ -7,9 +7,9 @@ As soon as the user saves the json data, a url which can be used to access the d
 
 The following API endpoints can be accessed:
 - POST `/docs` to post new json data
-- GET `/docs/id` to get already existing json data
-- UPDATE `/docs/id` to update already existing json data
-- DELETE `/docs/id` to delete already existing json data.
+- GET `/docs/:id` to get already existing json data
+- UPDATE `/docs/:id` to update already existing json data
+- DELETE `/docs/:id` to delete already existing json data.
 
 ## Project Dependencies
  - body-parser- NodeJs body parsing middleware,
